@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #FAFAFA;
+}
+.container{
+    max-width: 93.5%;
+    margin: auto;
+    padding: auto;
+}
+.desctop-header{
+    background: #FAFAFA;
+    box-shadow: 0rem .6rem 4.7rem rgba(0, 0, 0, 0.18);
+    align-items: center;
+}
+.margin-y-22{
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+}
+.menu-li{
+    display: flex;
+    gap: 7.7rem;
+    padding-left: 7.7rem;
+    flex-grow: 1;
+}
+.menu-items{
+    display: flex;
+    font-size: 2rem;
+    color: #212121;
+    transition: all .3s;
+}
+.menu-items:hover{
+    color: #FF5500;
+}
+.sign-up-btn{
+    background: linear-gradient(258.57deg, #FF5500 2.36%, #FB8246 100%);
+    border-radius: .8rem;
+    border: .1rem solid transparent;
+    padding: 1.5rem 4rem;
+    font-size: 1.8rem;
+    color: #FAFAFA;
+    transition: all .6s;
+}
+.sign-up-btn:hover{
+    background: #FAFAFA;
+    border-color: #FF5500;
+    color: #FF5500;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.gap-53{
+    gap: 5.3rem;
+}
+.slider{
+    background-image: linear-gradient(45deg , rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)) ,
+    url("../images/slider.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+.slider-title{
+    font-weight: 500;
+    font-size: 4.2rem;
+    line-height: 4.9rem;
+    color: #F2F2F2;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.slider-text{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 142%;
+    text-align: center;
+    color: #E0E0E0;
+    width: 34.5%;
+    margin: 0 auto;
+    margin-bottom: 5.1rem;
+}
+.slider-btn{
+    background-color: transparent;
+    padding: 1.8rem 4.8rem;
+    color: #FF5500;
+    border: .2rem solid #FC7938;
+    border-radius: .8rem;
+    font-size: 1.8rem;
+    margin-bottom: 6.4rem;
+}
+.text-align-center{
+    text-align: center;
+}
+.padding-top-105{
+    padding-top: 10.5rem;
+}
+.margin-bottom-100{
+   margin-bottom: 10rem;
+}
+.margin-bottom-80{
+    margin-bottom: 8rem;
+ }
+ .margin-bottom-86{
+    margin-bottom: 8.6rem;
+ }
+.Most-Popular-title{
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: #333333;
+    padding-bottom: .8rem;
+    border-bottom: 0.2rem solid #c4c4c4;
+    display: flex;
+    justify-content: center;
+}
+
+.Most-Popular-title span::after{
+    content: " ";
+    display: block;
+    background: #FF5500;
+    height: .8rem;
+    width: 65%;
+    border-radius: .45rem;
+    transform: translateY(.8rem);
+}
+.music-cart{
+    border-radius: 1.6rem;
+    overflow: hidden;
+    width: 31.9rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0rem 1rem 2.5rem rgba(0, 0, 0, 0.15);
+}
+.music-desc{
+    background: #EBEBEB;
+    box-shadow: 0rem -.1rem .6rem rgba(255, 85, 0, 0.1);
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 1.6rem;
+    
+}
+.play-back-ground{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF5500;
+    box-shadow: 0rem .4rem .4rem rgba(255, 85, 0, 0.2);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -3.5rem;
+}
+.play-icon{
+    margin-left: .5rem;
+}
+.singer-info{
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+}
+.singer-name{
+    margin-left: .5rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #333333;
+}
+.song-info{
+    margin-left: 1.5rem;
+    padding-bottom: 1.7rem;
+}
+.song-name{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #4F4F4F;
+    margin-left: .6rem;
+}
+.margin-top-126{
+    margin-top: 12.6rem;
+}
+.margin-bottom-65{
+    margin-bottom: 6.5rem;
+}
+.current-music-cover{
+    width: 36.2rem;
+    height: 35.6rem;
+    background-image: url("../images/mohsenYeganeh.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5.8rem;
+}
+.current-singer-name{
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    color: #333333;
+    margin-bottom: 1.6rem;
+}
+.current-song-name{
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #4F4F4F;
+    margin-bottom: 7.5rem;
+}
+.current-time-number{
+    justify-content: space-between;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+.current-time-number>*{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: #828282;
+    margin-bottom: .8rem;
+}
+.totlal-time-line{
+    width: 100%;
+    height: 3.5rem;
+    background: #E0E0E0;
+    box-shadow: 0px .3rem 1rem rgba(134, 44, 0, 0.2);
+    border-radius: 1.75rem;
+    overflow: hidden;
+    position: relative;
+}
+.totlal-time-line input{
+    width: 100%;
+    height: 3.5rem;
+    -webkiit-appearnce: none;
+    appearance: none;
+}
+.totlal-time-line input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+   
+}
+.totlal-time-line input::-moz-range-thumb {
+    height: 58px;
+    width: 16px;
+    border-radius: 3px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+.now-timle-line{
+    width: 0%;
+    height: 3.5rem;
+    background: linear-gradient(89.98deg, #FF5500 1.09%, #E04B00 99.98%);
+    border-radius: 1.75rem;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    pointer-events: none;
+}
+.btns-current-music{
+    margin-top: 3.5rem;
+    margin-left: 1.6rem;
+    gap: 3.5rem;
+}
+.play-current-music{
+    margin-left: .5rem;
+}
+.current-music-info{
+    margin-left: .8rem;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.paddin-x-34{
+    padding-right: 3.4rem;
+    padding-left: 3.4rem;
+}
+.margin-bottom-27{
+    margin-bottom: 2.7rem;
+}
+.about-us-text{
+    width: 45%;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #4F4F4F;
+}
+.gap-64{
+    gap: 6.4rem;
+}
+.margin-bottom-111{
+    margin-bottom: 11.1rem;
+}
+.margin-bottom-74{
+    margin-bottom: 7.4rem;
+}
+.gap-46{
+    gap: 4.6rem;
+}
+.contact-us-submit-part{
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.email-address {
+    background: #FAFAFA;
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.15);
+    border-radius: .8rem;
+    border: none;
+    padding-left: 2.4rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+.email-text{
+    background: #FAFAFA;
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.15);
+    border-radius: .8rem;
+    border: none;
+    padding-left: 2.4rem;
+    padding-top: 2.4rem;
+    padding-bottom: 20rem;
+}
+::placeholder{
+    color: #BDBDBD;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+.send-email-btn{
+    border: .2rem solid #FC7938;
+    border-radius: .8rem;
+    background-color: transparent;
+    color: #FF5A07;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 102.7%;
+    padding: 1.8rem 4.8rem;
+    width: 23rem;
+}
+.margin-bottom-187{
+    margin-bottom: 18.7rem;
+
+}
+.footer-item{
+    display: flex;
+    color: #F2F2F2;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 102.7%;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.footer-bg{
+    background: #4F4F4F;
+}
+.copy-right span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 102.7%;
+    color: #4F4F4F;
+    margin-left: 1rem;
+    
+}
+.copy-right{
+    margin-top: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+.link-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

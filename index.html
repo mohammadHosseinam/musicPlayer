@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<audio id="audio" src="https://dls.music-fa.com/tagdl/downloads/Mohsen%20Chavoshi%20-%2020%20Hezar%20Arezoo%20(320).mp3"></audio>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Music Player</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="desctop-header">
+        <nav class="d-flex align-items-center container">
+            <img class="margin-y-22" src="./images/logo2.png" alt="logo here">
+            <ul class="menu-li ">
+                <li class="menu-items">Home</li>
+                <li class="menu-items">Musics</li>
+                <li class="menu-items">ContactUs</li>
+                <li class="menu-items">AboutUs</li>
+            </ul>
+            <button class="sign-up-btn">signUp</button>
+        </nav>
+    </header>
+    <main>
+        <section class="slider margin-bottom-100">
+            <h1 class="slider-title padding-top-105">Persian Musics in POP - ROCK - HipHop and etc</h1>
+            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed est pellentesque nullam eget risus. 
+                Rhoncus, sociis duis sagittis nulla.</p>
+            <div class="text-align-center">
+            <button class="slider-btn">Listen NOW !</button>
+            </div>
+        </section>
+        <section class="Most-Popular-section">
+            <h4 class="Most-Popular-title margin-bottom-80"><span>Most Popular</span></h4>
+            <div class="container">
+            <div class="d-flex musics-container justify-content-center gap-53">
+            <!-- <figtur class="music-cart">
+                <img src="./images/mohsenYeganeh.jpg" alt="mohsenYeganeh">
+                <figcaption class="music-desc">
+                    <div class="play-back-ground">
+                    <svg class="play-icon text-align-center" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.9622 15.6979L4.68019 26.607C2.95894 27.5319 0.75 26.412 0.75 24.5475V2.7293C0.75 0.867773 2.95575 -0.255052 4.68019 0.672755L24.9622 11.5819C25.3538 11.7891 25.6793 12.0886 25.9056 12.45C26.132 12.8115 26.2513 13.222 26.2513 13.6399C26.2513 14.0578 26.132 14.4683 25.9056 14.8298C25.6793 15.1912 25.3538 15.4907 24.9622 15.6979Z" fill="#F2F2F2"/>
+                    </svg>
+                    </div>
+                    <div class="singer-info d-flex">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.49996 1.21429C7.77536 1.21429 7.08042 1.50214 6.56805 2.01452C6.05567 2.5269 5.76782 3.22183 5.76782 3.94644V8.80358C5.76782 9.16237 5.83849 9.51765 5.97579 9.84913C6.1131 10.1806 6.31435 10.4818 6.56805 10.7355C6.82175 10.9892 7.12294 11.1904 7.45442 11.3278C7.7859 11.4651 8.14117 11.5357 8.49996 11.5357C8.85875 11.5357 9.21403 11.4651 9.54551 11.3278C9.87699 11.1904 10.1782 10.9892 10.4319 10.7355C10.6856 10.4818 10.8868 10.1806 11.0241 9.84913C11.1614 9.51765 11.2321 9.16237 11.2321 8.80358V3.94644C11.2321 3.22183 10.9443 2.5269 10.4319 2.01452C9.91951 1.50214 9.22457 1.21429 8.49996 1.21429ZM4.55354 8.34822C4.55354 8.22745 4.50556 8.11163 4.42017 8.02624C4.33477 7.94084 4.21895 7.89287 4.09818 7.89287C3.97741 7.89287 3.86159 7.94084 3.77619 8.02624C3.6908 8.11163 3.64282 8.22745 3.64282 8.34822V8.80358C3.64279 10.013 4.09393 11.1789 4.90801 12.0732C5.72209 12.9676 6.84055 13.5261 8.04461 13.6395V15.3304C8.04461 15.4511 8.09258 15.567 8.17798 15.6524C8.26337 15.7377 8.3792 15.7857 8.49996 15.7857C8.62073 15.7857 8.73655 15.7377 8.82195 15.6524C8.90735 15.567 8.95532 15.4511 8.95532 15.3304V13.6395C10.1594 13.5261 11.2778 12.9676 12.0919 12.0732C12.906 11.1789 13.3571 10.013 13.3571 8.80358V8.34822C13.3571 8.22745 13.3091 8.11163 13.2237 8.02624C13.1383 7.94084 13.0225 7.89287 12.9017 7.89287C12.781 7.89287 12.6652 7.94084 12.5798 8.02624C12.4944 8.11163 12.4464 8.22745 12.4464 8.34822V8.80358C12.4464 9.85024 12.0306 10.854 11.2905 11.5941C10.5504 12.3342 9.54662 12.75 8.49996 12.75C7.45331 12.75 6.44952 12.3342 5.70942 11.5941C4.96932 10.854 4.55354 9.85024 4.55354 8.80358V8.34822Z" fill="#4F4F4F"/>
+                        </svg>
+                        <h5 class="singer-name">
+                            Mohsen Yeganeh
+                        </h5>   
+                    </div>
+                    <div class="song-info d-flex">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.99994 2.91667V7.90417C6.45161 7.58917 5.77494 7.46667 5.05744 7.7175C4.27578 7.9975 3.67494 8.69167 3.53494 9.50833C3.47022 9.8758 3.49441 10.2534 3.60549 10.6096C3.71657 10.9658 3.91131 11.2903 4.17343 11.5558C4.43555 11.8214 4.75743 12.0203 5.11216 12.136C5.46689 12.2517 5.84417 12.2808 6.21244 12.2208C7.35578 12.04 8.16661 10.99 8.16661 9.82917V4.08333H9.33328C9.97495 4.08333 10.4999 3.55833 10.4999 2.91667C10.4999 2.275 9.97495 1.75 9.33328 1.75H8.16661C7.52494 1.75 6.99994 2.275 6.99994 2.91667Z" fill="#4F4F4F"/>
+                        </svg>
+                        <h6 class="song-name">behet ghol midam</h6>   
+                    </div>   
+                </figcaption>
+            </figtur> -->
+
+            
+            </div>
+            </div>
+        </section>
+        <section class="current-music-section margin-top-126">
+            <h4 class="Most-Popular-title margin-bottom-65"><span>Current Music</span></h4>
+            <div class="container">
+            <div class="d-flex align-items-center margin-bottom-86 paddin-x-34">
+                <div class="current-music-cover">
+                    <button class="link-btn cover-play-button">
+                        <svg
+                          id="play-icon"
+                          width="183"
+                          height="170"
+                          viewBox="0 0 183 170"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M132.684 92.3876L60.0932 131.188C53.9327 134.478 46.0269 130.495 46.0269 123.863V46.262C46.0269 39.641 53.9213 35.6475 60.0932 38.9474L132.684 77.748C134.085 78.485 135.25 79.5503 136.06 80.8358C136.87 82.1213 137.297 83.5813 137.297 85.0678C137.297 86.5543 136.87 88.0144 136.06 89.2999C135.25 90.5854 134.085 91.6506 132.684 92.3876Z"
+                            fill="#F2F2F2"
+                          />
+                        </svg>
+                    </button>                
+                </div>
+                
+                <div class="current-music-text flex-grow-1 ">
+                    <div class="current-music-info">
+                        <div class="current-singer-name">
+                            Mohsen Yeganeh
+                        </div>
+                        <div class="current-song-name">
+                            Behet Ghol Midam
+                        </div>
+                    </div>
+                    <div class="current-music-time">
+                        <div class="current-time-number d-flex">
+                            <p class="moment-time-number">00 : 00</p>
+                            <p class="full-time-number">00 : 00</p>
+                        </div>
+                        <div class="totlal-time-line">
+                            <input type="range" name="" value="0" min="0" max="" id="current-time-range">
+                            <div class="now-timle-line"></div>
+                        </div>
+                        <div class="btns-current-music d-flex">
+                            <svg id="previous-track-player" width="18" height="35" viewBox="0 0 18 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.595 0.427321C17.3606 0.180305 17.0497 0.0301173 16.719 0.00406475C16.3883 -0.0219878 16.0597 0.0778254 15.793 0.285355L15.6379 0.427321L0.405699 16.4714C0.171183 16.7183 0.0285933 17.0457 0.00385905 17.394C-0.0208753 17.7424 0.0738883 18.0885 0.270917 18.3694L0.405699 18.5328L15.6379 34.5768C15.8853 34.8354 16.2162 34.9862 16.5645 34.9991C16.9128 35.012 17.253 34.8861 17.517 34.6465C17.7811 34.4069 17.9497 34.0713 17.9891 33.7065C18.0285 33.3418 17.936 32.9748 17.7298 32.6788L17.595 32.5154L3.34136 17.5021L17.595 2.48874C17.8543 2.21526 18 1.84455 18 1.45803C18 1.07151 17.8543 0.700799 17.595 0.427321Z" fill="#4F4F4F"/>
+                            </svg>
+                            <svg class="play-current-music" width="34" height="39" viewBox="0 0 34 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0585965 3.75484C0.0585965 1.42731 3.16006 0.0776807 5.38466 0.9872C7.93308 2.65922 29.6043 14.8642 31.5644 16.4936C33.5245 18.123 34.0866 20.71 31.4312 22.6341C28.776 24.558 7.67168 36.9793 5.38466 38.058C3.09716 39.1365 0.153909 37.6692 0.0585965 34.9394C-0.036716 32.2097 0.0585965 6.08213 0.0585965 3.75484ZM3.26038 5.77546C3.26038 6.36974 3.24227 32.666 3.20891 33.2069C3.15411 34.094 3.92376 34.9854 4.99602 34.4567C6.06829 33.9277 28.2337 20.7069 29.1139 20.3645C29.9943 20.0218 29.936 19.1492 29.1139 18.604C28.2921 18.0589 5.72254 5.14592 5.0625 4.57881C4.40246 4.01147 3.26038 4.86308 3.26038 5.7757V5.77546Z" fill="#4F4F4F"/>
+                            </svg>
+                            <svg id="next-track-player" width="18" height="35" viewBox="0 0 18 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.404974 0.427321C0.639435 0.180305 0.950275 0.0301173 1.28097 0.00406475C1.61166 -0.0219878 1.94025 0.0778254 2.20699 0.285355L2.36208 0.427321L17.5943 16.4714C17.8288 16.7183 17.9714 17.0457 17.9961 17.394C18.0209 17.7424 17.9261 18.0885 17.7291 18.3694L17.5943 18.5328L2.36208 34.5768C2.11468 34.8354 1.7838 34.9862 1.43548 34.9991C1.08717 35.012 0.747044 34.8861 0.482981 34.6465C0.218918 34.4069 0.0503426 34.0713 0.0109005 33.7065C-0.0285435 33.3418 0.0640469 32.9748 0.270191 32.6788L0.404974 32.5154L14.6586 17.5021L0.404974 2.48874C0.145655 2.21526 0 1.84455 0 1.45803C0 1.07151 0.145655 0.700799 0.404974 0.427321Z" fill="#4F4F4F"/>
+                            </svg>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="about-us">
+            <h4 class="Most-Popular-title margin-bottom-27"><span>About Us</span></h4>
+            <div class="container">
+            <div class="d-flex align-items-center gap-64 justify-content-center margin-bottom-111">
+                <p class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed duis viverra ullamcorper mollis. Amet diam blandit at donec ut sit porttitor. Nam diam amet, sit tellus in sed gravida. Tincidunt odio convallis enim leo integer viverra vitae.</p>
+                <img src="./images/aboutUs.png" alt="aboutUs">
+            </div>
+            </div>
+        </section>
+        <section class="contact-us">
+            <h4 class="Most-Popular-title margin-bottom-74"><span>Contact Us</span></h4>
+            <div class="container">
+             <div class="d-flex align-items-center paddin-x-34 gap-46 margin-bottom-187">
+                <img src="./images/contactus.png" alt="contact us">
+                <div class="contact-us-submit-part d-flex flex-grow-1">
+                    <input class="email-address" type="text" placeholder="Enter Your Email">
+                    <textarea class="email-text" id="" placeholder="type your message here ..."></textarea>
+                    <button class="send-email-btn">Send Message</button>
+                </div>
+             </div>
+            </div>
+        </section>
+    </main>
+    <footer class="">
+        <div class="footer-bg">
+            <ul class="container d-flex gap-53">
+                <li class="footer-item">home</li>
+                <li class="footer-item">musics</li>
+                <li class="footer-item">blog</li>
+                <li class="footer-item">about</li>
+                <li class="footer-item">contact</li>
+            </ul>
+        </div>
+        <div class="container">
+        <div class="copy-right d-flex align-items-center">
+            <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 0.875C4.9625 0.875 0.0625 5.775 0.0625 11.8125C0.0625 17.85 4.9625 22.75 11 22.75C17.0375 22.75 21.9375 17.85 21.9375 11.8125C21.9375 5.775 17.0375 0.875 11 0.875ZM11 20.5625C6.1875 20.5625 2.25 16.625 2.25 11.8125C2.25 7 6.1875 3.0625 11 3.0625C15.8125 3.0625 19.75 7 19.75 11.8125C19.75 16.625 15.8125 20.5625 11 20.5625Z" fill="#4D5357"/>
+                <path d="M8.11255 8.44375C8.5063 8.00625 8.98755 7.65625 9.5563 7.4375C10.125 7.175 10.6938 7.04375 11.3063 7.04375C12.05 7.04375 12.7938 7.21875 13.4063 7.6125C14.0188 7.9625 14.5875 8.4875 14.9813 9.05625L16.5563 7.875C15.9438 7.0875 15.2 6.3875 14.325 5.95C13.4063 5.46875 12.4438 5.25 11.35 5.25C10.475 5.25 9.60005 5.425 8.81255 5.775C8.02505 6.125 7.32505 6.60625 6.7563 7.175C6.18755 7.7875 5.7063 8.44375 5.3563 9.275C5.0063 10.0625 4.8313 10.9375 4.8313 11.8125C4.8313 12.7312 5.0063 13.5625 5.3563 14.35C5.7063 15.1375 6.1438 15.8375 6.7563 16.45C7.32505 17.0625 8.02505 17.5 8.81255 17.85C9.60005 18.2 10.4313 18.375 11.35 18.375C12.4438 18.375 13.45 18.1563 14.325 17.675C15.2 17.1938 15.9875 16.5375 16.5563 15.75L14.9813 14.5687C14.5875 15.1812 14.0625 15.6625 13.4063 16.0125C12.75 16.3625 12.05 16.5375 11.3063 16.5375C10.6938 16.5375 10.125 16.4063 9.5563 16.1438C9.0313 15.8813 8.55005 15.5312 8.11255 15.1375C7.7188 14.7 7.3688 14.2188 7.15005 13.65C6.9313 13.0813 6.80005 12.4688 6.80005 11.8125C6.80005 11.1562 6.9313 10.5437 7.15005 9.975C7.3688 9.40625 7.7188 8.88125 8.11255 8.44375Z" fill="#4D5357"/>
+            </svg>
+            <span>copy right All reserved ... </span>  
+        </div>
+        </div>
+    </footer>
+    <script type="module" src='./app.js'></script>
+</body>
+</html>
